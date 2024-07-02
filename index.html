@@ -1,0 +1,189 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Manvi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c5cc246e15.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li> <a href="#header">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#services">Projects</a></li>
+                <li> <a href="#portfolio">Certification</a></li>
+                <li> <a href="#contact">Contact Me</a></li>
+                <li> <a href="images/ManviJainResume.pdf" download>Resume <i class="fa-solid fa-download"></i> </a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p> Software Development Engineer</p>
+            <h1>Hi, I'm <span>Manvi Jain</span> </h1>
+        </div>
+    </div>
+</div>
+<!----------------------ABOUT-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpeg">
+            </div>
+            <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a passionate Software Developer with a Master's in Engineering and a proven track record of creating innovative solutions. I have 2.5 years of experience working as a Software developer. I'm currently seeking new opportunities to leverage my skills in full stack, frontend, or backend development roles. Let's connect and explore how we can collaborate on impactful projects.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br>Java, JavaScript, Python, C#, .NET Core, TypeScript, HTML, CSS3</li>
+                        <li><span>Frameworks/Libraries</span><br>React.js, Django, Flask, Node.js, Angular.js, Express, Vue.js, styled-components, Entity Framework, NUnit, SimpleInjector</li>
+                        <li><span>Database Systems</span><br>MySQL, SQL Server, PostgreSQL, MongoDB, Oracle, NoSQL</li>
+                        <li><span>Cloud Platforms</span><br>AWS (S3), Google Cloud Platform, Azure</li>
+                        <li><span>Methodologies</span><br>Agile, Scrum, Test-Driven Development (TDD), Continuous Integration/Continuous Deployment (CI/CD)</li>
+                        <li><span>Other</span><br>Git, GitLab, Docker, REST API, Windows, UNIX, Linux, JSON, Software Design, Problem-solving, Communication, Teamwork, Quality Assurance, Manual Testing, Cross-browser Compatibility Testing, Unit Testing, Performance Optimization, Penetration Testing, Test Automation, npm, Webpack, Jenkins, .NET Web Forms, jQuery</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Software Developer - Accenture (Dec 2020 – Aug 2022)</span>
+                            <br>Led backend development initiatives using .NET Core, resulting in a 30% scalability improvement.
+                            <br>Collaborated closely with clients to gather requirements and ensure integrations deliver against set objectives.
+                            <br>Conducted comprehensive testing and debugging of backend and frontend components to ensure high code quality and stability.
+                            <br>Reviewed code changes made by team members for accuracy prior to deployment, troubleshooting complex cases, and identifying alternative solutions.
+                        </li>
+                        <li><span>Software Developer - Avis E. Solutions(Feb 2020 – Dec 2020)</span>
+                            <br>Developed backend interfaces using Python and Django, contributing to a 50% application performance enhancement.
+                            <br>Integrated RESTful APIs using Django to enable dynamic data interaction and extend application functionality.
+                            <br>Conducted comprehensive testing and debugging of backend components to ensure high code quality.
+                            <br>Automated build and deployment processes using Jenkins, increasing workflow efficiency by 30%.
+                            <br>Worked on high-volume transactional projects, ensuring robust and scalable solutions.
+                            
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Master of Engineering (Electrical and Computer Science)</span>
+                            <br>University of Windsor
+                            <br>Sep 2022 – Dec 2023 | GPA: 7.7
+                        </li>
+                        <li><span>Bachelor of Technology (Information Technology)</span>
+                            <br>Abdul Kalam Technical University
+                            <br>Aug 2016 – Aug 2020 | GPA: 8.1
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------Projects-->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="services-list">
+            <div>
+                <h2>Porfolio Website</h2>
+                <p>Created a personal protfolio website</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <div>
+                <h2>Stock Analysis</h2>
+                <p>Use of machine learning for analyzing stocks and doing market predictions</p>
+                <a href="https://github.com/manvijain1704/stock-analysis"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <div>
+                <h2>Sentiment Analysis</h2>
+                <p>use of deep neural network for analyzing sentiments on basis of facial expression</p>
+                <a href="https://github.com/manvijain1704/sentiment-analysis"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!--------------certification-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/ACcerti.png">
+                <div class="layer">
+                    <h3>Tech Expressway Program</h3>
+                    <p>Stream Training in MEAN, MERN</p>
+                    <a href="https://drive.google.com/file/d/1IIxlTooN-gNXkBQCInOYDBV_9eI5jBi9/view?usp=sharing"><i class="fa-solid fa-code"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/DLcerti.png">
+                <div class="layer">
+                    <h3>Deep Learning Specialization</h3>
+                    <p> 5 Course specialization from DeepLearning.AI</p>
+                    <a href="https://coursera.org/share/11a50239765463ad70028d33549f7df7"><i class="fa-solid fa-code"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Mlcerti.png">
+                <div class="layer">
+                    <h3>Machine Learning</h3>
+                    <p>Stanford University</p>
+                    <a href="https://coursera.org/share/74ee57a6f42bcba269bc02ca762daa85"><i class="fa-solid fa-code"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<!--------------Contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>  jainmanvi111@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>  +1(226)-961-0244</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/imanvijain/"><i class="fa-brands fa-linkedin"></i> </a>
+                    <a href="https://github.com/manvijain1704"> <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Manvi </p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+</body> 
+</html>
